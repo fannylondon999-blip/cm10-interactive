@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: cm10-interactive
+    runtime: static
+    buildCommand: echo "C/M 10 static site ready"
+    staticPublishPath: .
